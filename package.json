@@ -1,0 +1,23 @@
+{
+  "name": "simple-nodejs-webapp",
+  "version": "0.0.1",
+  "description": "Node.js sample app for OpenShift 3",
+  "main": "webapp.js",
+  "engine": {
+    "node": "*",
+    "npm": "*"
+  },
+  "scripts": {
+    "start": "node webapp.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sebastienmoreno/simplenodewebapp.git"
+  },
+  "author": "Sébastien Moreno <sebastien.moreno@gmail.com>",
+  "license": "CC-BY-1.0",
+  "bugs": {
+    "url": "https://github.com/sebastienmoreno/simplenodewebapp/issues"
+  },
+  "homepage": "https://github.com/sebastienmoreno/simplenodewebapp"
+}
