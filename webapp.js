@@ -5,6 +5,6 @@ console.log('Server has started');
 
 function onRequest(request, response){
   response.writeHead(200);
-  response.write('Hello Noders');
+  response.write('Hello World of Noders!');
   response.end();
 }
