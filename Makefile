@@ -23,10 +23,10 @@ DOCKERFILE=./Dockerfile
 build: build-image
 
 build-image:
-	echo "Building image $(NAME):$(VERSION)"
-	docker build --pull --no-cache -f $(DOCKERFILE) -t ${REGISTRY_PREFIX}/$(NAME):$(VERSION) .
+  echo "Building image $(NAME):$(VERSION)"
+  docker build --pull --no-cache -f $(DOCKERFILE) -t ${REGISTRY_PREFIX}/$(NAME):$(VERSION) .
 
 push-image:
-	echo "Pushing image $(NAME):$(VERSION)"
-	docker push ${REGISTRY_PREFIX}/$(NAME):$(VERSION)
+  echo "Pushing image $(NAME):$(VERSION)"
+  docker push ${REGISTRY_PREFIX}/$(NAME):$(VERSION)
 
